@@ -1,6 +1,6 @@
-# Model-Dataset Match
+# AI Nexus
 
-Model-Dataset Match is a web-based application that recommends AI/ML models and datasets based on user requirements. By leveraging data scraped from Hugging Face, the application filters and suggests models and datasets that best match the user’s needs.
+AI Nexus is a web-based application that recommends AI/ML models and datasets based on user requirements. By leveraging data scraped from Hugging Face, the application filters and suggests models and datasets that best match the user’s needs.
 
 ## Features
 
@@ -91,7 +91,7 @@ The recommendation system uses cosine similarity to match user requirements with
 - `vector_db.pickle`: The vector database file needed for recommendations (download from Google Drive).
 
 ## Example
-## Model Recommendation
+## Model Match
 ### Input:
 Provide inputs in the following fields:
 - **Task Type** (e.g., "Natural Language Processing")
@@ -109,7 +109,7 @@ List of recommended models with the following details:
 - **Tags**
 - **Direct link to the model on Hugging Face**
 
-## Dataset Recommendation
+## Dataset Match
 Provide inputs in the following fields:
 - **Dataset Description** (e.g., "Image Face Dataset")
 
