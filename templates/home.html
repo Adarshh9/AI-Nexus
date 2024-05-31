@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to AI Recommendations</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    margin: 0;
+    padding: 20px;
+    overflow-x: hidden;
+    position: relative;
+    background: #000 url('https://www.transparenttextures.com/patterns/stardust.png');
+    height: 100vh;
+    animation: stars 50s linear infinite;
+}
+
+@keyframes stars {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 10000px 5000px;
+    }
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    transition: background-color 0.5s;
+}
+
+.container:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 40px;
+    font-size: 32px;
+    transition: font-size 0.5s;
+}
+
+h1:hover {
+    font-size: 36px;
+}
+
+.sections {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 40px;
+    transition: opacity 0.5s;
+}
+
+.sections:hover {
+    opacity: 0.9;
+}
+
+.section {
+    width: 48%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.5s, box-shadow 0.5s;
+}
+
+.section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.section h2 {
+    color: #ffffff;
+    margin-bottom: 20px;
+    transition: color 0.5s;
+}
+
+.section:hover h2 {
+    color: #ff6f61;
+}
+
+.section p {
+    color: #dddddd;
+    margin-bottom: 20px;
+    transition: color 0.5s;
+}
+
+.section:hover p {
+    color: #ffffff;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6f61;
+    color: #ffffff;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.5s;
+}
+
+.button:hover {
+    background-color: #e63946;
+}
+
+@media (max-width: 768px) {
+    .sections {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .section {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+}
+    </style>
+</head>
+
+<body>
+    <div class="stars"></div>
+    <div class="container">
+        <h1>Welcome to AI Recommendations</h1>
+        <div class="sections">
+            <div class="section">
+                <h2>Model Recommendations</h2>
+                <p>Find the best machine learning models tailored to your specific needs. Our recommendations are based on a comprehensive analysis of model performance and suitability for various tasks.</p>
+                <a href="/model_rec_page" class="button">Go to Model Recommendations</a>
+            </div>
+            <div class="section">
+                <h2>Dataset Recommendations</h2>
+                <p>Discover the most relevant datasets for your projects. Our dataset recommendations help you find high-quality data sources to train and evaluate your machine learning models.</p>
+                <a href="/dataset_rec_page" class="button">Go to Dataset Recommendations</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
