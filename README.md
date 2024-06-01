@@ -125,9 +125,9 @@ List of recommended datasets with the following details:
 
 ## Demo
 
-Check out a live demonstration of the AI Nexus application on YouTube: [AI Nexus Demo](https://youtu.be/4Wye7fobLKQ)
+Check out a live demonstration of the AI Nexus application on YouTube: [AI Nexus Demo](https://youtu.be/vb-005GhDdQ)
 
-[![AI Nexus Demo](https://img.youtube.com/vi/4Wye7fobLKQ/0.jpg)](https://youtu.be/4Wye7fobLKQ)
+[![AI Nexus Demo](https://img.youtube.com/vi/vb-005GhDdQ/0.jpg)](https://youtu.be/vb-005GhDdQ)
 
 ## Contributing
 
