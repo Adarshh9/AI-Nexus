@@ -43,14 +43,14 @@ The recommendation system uses cosine similarity to match user requirements with
 
 1. **Clone the repository:**
     ```sh
-    git clone https://github.com/Adarshh9/Model-Dataset-Match.git
-    cd Model-Dataset-Match
+    git clone https://github.com/Adarshh9/AI-Nexus.git
+    cd AI-Nexus
     ```
 
 2. **Set up a virtual environment:**
     ```sh
-    conda create --name mdmatch python=3.12
-    conda activate mdmatch
+    conda create --name ainexus python=3.12
+    conda activate ainexus
     ```
 
 3. **Install the required packages:**
@@ -77,16 +77,16 @@ The recommendation system uses cosine similarity to match user requirements with
     ```
 
 3. **Provide your requirements** by selecting the following fields:
-- For Model Recommendations:
+- For Model Match:
    - **Task Type**, **Task**, **Model Type**, **Framework**
-- For Dataset Recommendations:
+- For Dataset Match:
    - **Dataset Description**
   Click "Get Recommendations" to view the suggested models.
 
 ## Project Structure
 
 - `app.py`: Main application script using Flask.
-- `utils.py`: Helper functions for loading data and recommending models.
+- `utils.py`: Helper functions for loading data and recommending models/datasets.
 - `templates/*.html`: HTML template, CSS styles, JavaScript for handling form submission and displaying recommendations for the web interface.
 - `vector_db.pickle`: The vector database file needed for recommendations (download from Google Drive).
 
@@ -125,9 +125,9 @@ List of recommended datasets with the following details:
 
 ## Demo
 
-Check out a live demonstration of the Model-Dataset Match application on YouTube: [Model-Dataset Match Demo](https://youtu.be/4Wye7fobLKQ)
+Check out a live demonstration of the AI Nexus application on YouTube: [AI Nexus Demo](https://youtu.be/4Wye7fobLKQ)
 
-[![Model-Dataset Match Demo](https://img.youtube.com/vi/4Wye7fobLKQ/0.jpg)](https://youtu.be/4Wye7fobLKQ)
+[![AI Nexus Demo](https://img.youtube.com/vi/4Wye7fobLKQ/0.jpg)](https://youtu.be/4Wye7fobLKQ)
 
 ## Contributing
 
